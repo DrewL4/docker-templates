@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <Name>MyMedia</Name>
+  <Repository>drew4/mymedia:latest</Repository>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/DrewL4/MyMedia/issues</Support>
+  <Project>https://github.com/DrewL4/MyMedia</Project>
+  <Icon>https://your-icon-url.png</Icon>
+  <Overview>MyMedia Docker for Unraid users</Overview>
+  <Category>Media:</Category>
+
+  <Config Name="Movies" Target="/movies" Default="/mnt/user/movies" Mode="rw" Description="Path to your Movies folder" Type="Path" Display="always" Required="true" Mask="false" />
+  <Config Name="TV Shows" Target="/tv" Default="/mnt/user/tv" Mode="rw" Description="Path to your TV Shows folder" Type="Path" Display="always" Required="true" Mask="false" />
+  <Config Name="WebUI" Target="8082" Default="8082" Mode="tcp" Description="WebUI port" Type="Port" Display="always" Required="true" Mask="false" />
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/mymedia" Mode="rw" Description="Path to appdata configuration" Type="Path" Display="always" Required="true" Mask="false" />
+</Template>
