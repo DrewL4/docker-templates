@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/DrewL4/MyMedia/master/pum.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>MediaApp:Video MediaApp:Music MediaApp:Photos MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+  <Name>PUM</Name>
+  <Description>
+    [b]Description[/b][br]
+    Plex Usage Monitoring and Billing app to manage Plex users and billing notifications.[br][br]
+    [b]Configuration[/b][br]
+    [b]/app/config[/b] This is where the application will store its configuration files, database and logs etc.[br][br]
+    [b]Documentation[/b][br]
+    https://github.com/yourusername/yourrepository[br][br]
+  </Description>
+  <Overview>
+    Plex Usage Monitoring to help with managing Plex users.
+  </Overview>
+  <Support>Support URL</Support>
+  <ReadMe>https://github.com/DrewL4/MyMedia</ReadMe>
+  <Registry>https://registry.hub.docker.com/r/drew4/pum/</Registry>
+  <GitHub>https://github.com/DrewL4/MyMedia</GitHub>
+  <Repository>drew4/pum</Repository>
+  <Project>Project URL</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>PLEX_SERVER_URL</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>PLEX_TOKEN</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>PLEX_USERNAME</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>PLEX_PASSWORD</Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/pum/</HostDir>
+      <ContainerDir>/app/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8484]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/yourusername/yourrepository/master/icon.png</Icon>
+  <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
+  <DonateLink>YOUR DONATE LINK HERE</DonateLink>
+  <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
+  <ExtraParams></ExtraParams>
+</Containers>
