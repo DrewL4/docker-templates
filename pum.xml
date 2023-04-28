@@ -28,24 +28,6 @@
     <Publish>
     </Publish>
   </Networking>
-  <Environment>
-    <Variable>
-      <Name>PLEX_SERVER_URL</Name>
-      <Value></Value>
-    </Variable>
-    <Variable>
-      <Name>PLEX_TOKEN</Name>
-      <Value></Value>
-    </Variable>
-    <Variable>
-      <Name>PLEX_USERNAME</Name>
-      <Value></Value>
-    </Variable>
-    <Variable>
-      <Name>PLEX_PASSWORD</Name>
-      <Value></Value>
-    </Variable>
-  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/pum/</HostDir>
