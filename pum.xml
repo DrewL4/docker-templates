@@ -53,6 +53,15 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <Config>
+    <Name>Port</Name>
+    <Type>Port</Type>
+    <Default>8484</Default>
+    <Description>WebUI port for PUM</Description>
+    <Display>always</Display>
+    <Required>true</Required>
+    <Mask>false</Mask>
+  </Config>
   <WebUI>http://[IP]:[PORT:8484]/</WebUI>
   <Icon>https://raw.githubusercontent.com/yourusername/yourrepository/master/icon.png</Icon>
   <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
