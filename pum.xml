@@ -62,7 +62,7 @@
     <Required>true</Required>
     <Mask>false</Mask>
   </Config>
-  <WebUI>http://[IP]:[PORT:8484]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8484]/web/index.html</WebUI>
   <Icon>https://raw.githubusercontent.com/yourusername/yourrepository/master/icon.png</Icon>
   <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
   <DonateLink>YOUR DONATE LINK HERE</DonateLink>
